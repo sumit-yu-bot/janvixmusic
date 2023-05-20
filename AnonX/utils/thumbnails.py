@@ -125,10 +125,10 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 25),
-                f" ᴊᴀɴᴠɪ ✘ ᴍᴜsɪᴄ",
+                f"ᴊᴀɴᴠɪ ✘ ᴍᴜsɪᴄ",
                 fill="white",
                 stroke_width=3,
-                stroke_fill="red",
+                stroke_fill="white",
                 font=font,
             )
             if para[0]:
@@ -265,10 +265,10 @@ async def gen_qthumb(videoid, user_id):
         try:
             draw.text(
                 (455, 25),
-                "JANVI ADDED SONG",
+                "ᴊᴀɴᴠɪ ✘ ᴍᴜsɪᴄ",
                 fill="white",
                 stroke_width=5,
-                stroke_fill="red",
+                stroke_fill="black",
                 font=font,
             )
             if para[0]:
