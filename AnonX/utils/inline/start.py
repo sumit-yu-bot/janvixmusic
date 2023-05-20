@@ -9,13 +9,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="● ᴀᴅᴅ ᴇʟꜱᴇ ʏᴏᴜ ɢᴀʏ ●",
+                text="● ᴀᴅᴅ ᴍᴇ ᴍᴏɪ ʙᴀʙʏ ●",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="● ʜᴇʟᴩ ●",
+                text="● ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ●",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -30,34 +30,34 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="● ᴀᴅᴅ ᴇʟꜱᴇ ʏᴏᴜ ɢᴀʏ ●",
+                text="ᴀᴅᴅ ᴍᴇ ᴍᴏɪ ʙᴀʙʏ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="● ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ●", callback_data="settings_back_helper"
+                text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="● sᴜᴩᴩᴏʀᴛ ●", url=config.SUPPORT_GROUP
+                text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="● ᴅᴇᴠᴇʟᴏᴘᴇʀ ●", user_id=OWNER
+                text="ᴍʏ ᴏᴡɴᴇʀ", user_id=OWNER
             )
            ],
         [
             InlineKeyboardButton(
-                text="● ᴜᴘᴅᴀᴛᴇꜱ ●", url=f"https://t.me/ab_sumit",
+                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ab_sumit",
             ),
         ],
           [
             InlineKeyboardButton(
-                text="● ᴀʙᴏᴜᴛ ●", url=f"https://graph.org/%F0%9D%95%8C%F0%9D%95%84%F0%9D%95%80%F0%93%86%A9%F0%93%86%AA-05-19",
+                text="ᴀʙᴏᴜᴛ", url=f"https://graph.org/%F0%9D%95%8C%F0%9D%95%84%F0%9D%95%80%F0%93%86%A9%F0%93%86%AA-05-19",
             ),
             InlineKeyboardButton(
-               text="● ʀᴇᴘᴏ ●", url=f"https://t.me/ab_sumit",
+               text="ꜱᴏᴜʀᴄᴇ", url=f"https://t.me/ab_sumit",
             ),
         ],
      ]
