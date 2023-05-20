@@ -38,8 +38,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="settings_back_helper"
             ),
-        ],
-        [
+      
             InlineKeyboardButton(
                 text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
@@ -49,7 +48,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
            ],
         [
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ab_sumit",
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
             ),
         ],
           [
@@ -57,7 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="ᴀʙᴏᴜᴛ", url=f"https://graph.org/%F0%9D%95%8C%F0%9D%95%84%F0%9D%95%80%F0%93%86%A9%F0%93%86%AA-05-19",
             ),
             InlineKeyboardButton(
-               text="ꜱᴏᴜʀᴄᴇ", url=f"https://t.me/ab_sumit",
+               text="ꜱᴏᴜʀᴄᴇ", url=config.SUPPORT_CHANNEL
             ),
         ],
      ]
