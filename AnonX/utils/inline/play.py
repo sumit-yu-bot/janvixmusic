@@ -59,11 +59,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-            text="• ᴜᴘᴅᴀᴛᴇꜱ •", url="https://t.me/ab_sumit"
-            )
-        ],
+        
     ]
     return buttons
 
@@ -116,11 +112,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-              text="• ᴜᴘᴅᴀᴛᴇꜱ •", url="https://t.me/ab_sumit"
-            )
-        ],
+       
     ]
     return buttons
 
@@ -145,11 +137,7 @@ def stream_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="• ᴜᴘᴅᴀᴛᴇꜱ •", url="https://t.me/ab_sumit"
-            )
-        ],
+       
     ]
     return buttons
 
@@ -171,11 +159,7 @@ def telegram_markup(_, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="• ᴜᴘᴅᴀᴛᴇꜱ •", url="https://t.me/ab_sumit"
-            )
-        ],
+       
     ]
     return buttons
 
@@ -326,10 +310,6 @@ def queue_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                 text="• ᴜᴘᴅᴀᴛᴇꜱ •", url="https://t.me/ab_sumit"
-            )
-        ],
+       
     ]
     return buttons
