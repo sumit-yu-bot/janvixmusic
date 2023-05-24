@@ -84,9 +84,9 @@ async def gen_thumb(videoid, user_id):
         youtube = Image.open(f"cache/thumb{videoid}.png")
         
         
-        bg = Image.open(f"AnonX/assets/anonx.png")
+        circle = Image.open(f"AnonX/assets/anonx.png")
  # changing circle color
-            im = bg
+            im = circle
             im = im.convert('RGBA')
             color = make_col()
 
@@ -97,7 +97,7 @@ async def gen_thumb(videoid, user_id):
             data[..., :-1][white_areas.T] = color
 
             im2 = Image.fromarray(data)
-            bg = im2
+            circle = im2
             # done
 
         image1 = changeImageSize(1280, 720, youtube)
