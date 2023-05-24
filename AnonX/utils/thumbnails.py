@@ -92,6 +92,20 @@ async def gen_thumb(videoid, user_id):
         image3 = changeImageSize(1280, 720, bg)
         image5 = image3.convert("RGBA")
         Image.alpha_composite(background, image5).save(f"cache/temp{videoid}.png")
+        
+        # changing circle color
+            im = bg
+            im = im.convert('RGBA')
+            color = make_col()
+
+            data = np.array(im)
+            red, green, blue, alpha = data.T
+
+            white_areas = (red == 255) & (blue == 255) & (green == 255)
+            data[..., :-1][white_areas.T] = color
+
+            im2 = Image.fromarray(data)
+            bg = im2
 
         Xcenter = youtube.width / 2
         Ycenter = youtube.height / 2
